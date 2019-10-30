@@ -19,7 +19,7 @@ def menu():
     # Eventually Exit
 
     print_blogs()
-    selection = input(MENU_PROMPT)
+    selection = input(MENU_PROMPT).lower()
     while selection != 'q':
         if selection == 'c':
             ask_create_blog()
@@ -54,4 +54,8 @@ def print_post(post):
     print(POST_TEMPLATE.format(post.title, post.content))
 
 def ask_create_post():
-    pass
+    blog_name = input('Enter the blog title you want to write a post in: ')
+    title = input('Enter your post title: ')
+    content = input('Enter your post content: ')
+
+    blogs[blog_name].create_post(title, content)
