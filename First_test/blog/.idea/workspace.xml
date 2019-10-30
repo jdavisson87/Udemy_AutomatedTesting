@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="tests" name="Unittests for app_test.AppTest" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f2f835ab-c99c-4590-b750-75f875de5e3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/system/app_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/system/app_test.py" afterDir="false" />
     </list>
@@ -15,7 +21,7 @@
     <session id="149169181">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.21" value="1" />
@@ -88,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/system/app_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+            <state relative-caret-position="105">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
                 <marker date="1572469027236" expanded="true" signature="165:249" ph="..." />
@@ -314,9 +320,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_app_test_AppTest_test_menu_ask_create_post - 2019.10.30 at 15h 38m 17s.xml">
-      <configuration name="Unittests for app_test.AppTest.test_menu_ask_create_post" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_app_test_AppTest_test_menu_ask_create_post - 2019.10.30 at 15h 39m 34s.xml">
       <configuration name="Unittests for app_test.AppTest.test_menu_ask_create_post" configurationId="tests" />
     </history-entry>
@@ -344,17 +347,19 @@
     <history-entry file="Unittests_for_app_test_AppTest_test_print_posts - 2019.10.30 at 15h 54m 14s.xml">
       <configuration name="Unittests for app_test.AppTest.test_print_posts" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_app_test_AppTest - 2019.10.30 at 15h 57m 11s.xml">
+      <configuration name="Unittests for app_test.AppTest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="752" y="23" width="688" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24782951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/system/app_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
             <marker date="1572469027236" expanded="true" signature="165:249" ph="..." />
